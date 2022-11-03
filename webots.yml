@@ -1,0 +1,7 @@
+publish: true
+type: benchmark
+world:
+  file: worlds/square_path.wbt
+  max-duration: 25
+  metric: percent
+dockerCompose: theia:webots-project/controllers/square_path/
